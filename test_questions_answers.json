@@ -1,0 +1,77 @@
+{
+  "G1-1": {
+    "asks_refund": true,
+    "handling_team": "billing",
+    "response_priority": "Có thể chờ"
+  },
+  "G1-2": {
+    "asks_refund": false,
+    "handling_team": "fraud",
+    "response_priority": "Cần xử lý ngay lập tức"
+  },
+  "G1-3": {
+    "asks_refund": false,
+    "handling_team": "technical",
+    "response_priority": "Trong ngày"
+  },
+  "G1-4": {
+    "asks_refund": true,
+    "handling_team": "billing",
+    "response_priority": "Có thể chờ"
+  },
+  "G1-5": {
+    "asks_refund": false,
+    "handling_team": "technical",
+    "response_priority": "Cần xử lý ngay lập tức"
+  },
+  "G2-1": {
+    "is_scam_message": true,
+    "scam_method": "phishing_link",
+    "victim_risk": "Cao - có thể mất tiền ngay"
+  },
+  "G2-2": {
+    "is_scam_message": true,
+    "scam_method": "impersonation",
+    "victim_risk": "Cao - có thể mất tiền ngay"
+  },
+  "G2-3": {
+    "is_scam_message": false,
+    "scam_method": "legitimate",
+    "victim_risk": "Thấp - không mất thông tin hay tiền"
+  },
+  "G2-4": {
+    "is_scam_message": true,
+    "scam_method": "impersonation",
+    "victim_risk": "Cao - có thể mất tiền ngay"
+  },
+  "G2-5": {
+    "is_scam_message": true,
+    "scam_method": "phishing_link",
+    "victim_risk": "Trung bình - có thể lộ thông tin cá nhân"
+  },
+  "G3-1": {
+    "should_exit_position": true,
+    "main_signal_type": "risk",
+    "action_level": "Phải hành động ngay trong phiên"
+  },
+  "G3-2": {
+    "should_exit_position": false,
+    "main_signal_type": "fundamental",
+    "action_level": "Chỉ theo dõi"
+  },
+  "G3-3": {
+    "should_exit_position": false,
+    "main_signal_type": "technical",
+    "action_level": "Chỉ theo dõi"
+  },
+  "G3-4": {
+    "should_exit_position": false,
+    "main_signal_type": "risk",
+    "action_level": "Chuẩn bị kế hoạch"
+  },
+  "G3-5": {
+    "should_exit_position": true,
+    "main_signal_type": "fundamental",
+    "action_level": "Phải hành động ngay trong phiên"
+  }
+}
